@@ -1,0 +1,16 @@
+{
+    "typeName": "AWS::Waypoint::Foo",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.waypoint.foo.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.waypoint.foo.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "waypoint",
+            "foo"
+        ],
+        "codegen_template_path": "guided_aws"
+    }
+}
